@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>comida2017</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/forms.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  		<script src="js/jquery-1.12.3.min.js"></script>
+  		<script src="js/jquery-search.js"></script>
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<!-- Header -->
+				<div id="header">
+					<!-- Inner -->
+						<div class="inner">
+							<br><br><br><br>
+						</div>
+				</div>
+			<!-- Main -->
+				<div class="container">
+					<header>
+								<h2><a href="#">Busca tu invitación</a></h2>
+								<p>
+									Para confirmar es necesario que ingrese su nombre tal como aparece en su invitación.
+								</p>
+							</header>
+			<!--Mensaje Captura-->
+					<div class="alert alert-danger" role="alert" id="resultadoBusqueda">
+      					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      				</div>
+      		<!--Formulario-->	
+					<form id="form" accept-charset="utf-8" method="POST" action="">
+        				<input type="text" name="busqueda" id="busqueda" value="" placeholder="Nombre(s)" class="form-control" autocomplete="off">
+        				<input type="text" name="busqueda1" id="busqueda1" value="" placeholder="Apellido Paterno" class="form-control"  autocomplete="off">
+        				<input type="text" name="busqueda2" id="busqueda2" value="" placeholder="Apellido Materno" class="form-control" autocomplete="off">
+        				<br><br>
+        				<input type="button" class="btn btn-lg"  name="enviar" id="enviar" onclick="buscar();" value="Buscar"  /> 
+      				</form>	
+      				
+        			<br><br>
+
+				</div>
+
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; Copyright © 2017 AMDA</li>
+					</ul>
+				</div>						
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.onvisible.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="js/main.js"></script>
+
+	</body>
+</html>

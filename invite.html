@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>comida2017</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/form.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  		<script src="js/jquery-1.12.3.min.js"></script>
+  		<script src="js/jquery-insert.js"></script>
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<!-- Header -->
+				<div id="header">
+					<!-- Inner -->
+						<div class="inner">
+							<br><br><br><br>
+						</div>
+				</div>
+			<!-- Main -->
+				<div class="container">
+					<header>
+								<h2><a href="#">Registra a tu acompañante</a></h2>
+								<p>
+									Áyudanos capturando los siguientes datos de tu acompañante. 
+								</p>
+							</header>
+			<!--Mensaje Captura-->
+					<div class="alert alert-danger" role="alert" id="resultadoRegistro">
+      					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      				</div><br>
+      		<!--Formulario-->	
+			<form accept-charset="utf-8" name="Invitado" method="POST" action="">              
+				<input type="text" class="form-control" id="registro" name="registro" placeholder="Nombre(s)" autocomplete="off"><br>
+        		<input type="text" class="form-control" id="registro1" name="registro1" placeholder="Apellido" autocomplete="off">
+        		<br><br>
+        	<input id="guardar" type="button" class="btn btn-lg" value="Guardar datos" onclick="enviar()">
+      		</form>
+      				
+        			<br><br>
+
+				</div>
+
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; Copyright © 2017 AMDA</li>
+					</ul>
+				</div>						
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.onvisible.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="js/main.js"></script>
+
+	</body>
+</html>
