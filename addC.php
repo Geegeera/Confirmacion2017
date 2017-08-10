@@ -37,6 +37,7 @@ if (isset($consultaBusqueda) && isset($consultaBusqueda2) && isset($consultaBusq
                   while($resultados = mysqli_fetch_array($consulta)) {
                       $actualizacion=mysqli_query($connection,"UPDATE `mmv001` SET Asistencia='Si' WHERE Nombre='$consultaBusqueda' AND Apellido_Paterno='$consultaBusqueda2' AND Apellido_Materno='$consultaBusqueda3'");
                       $mensaje='1';
+                      include 'mail.php'
                   };
                 }else{
                       $mensaje='5';
